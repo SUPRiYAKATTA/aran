@@ -1,10 +1,13 @@
 
-b=input("enter number")
+b=input()
 def pal(x):
 	a=x[::-1]
 	return a
 x=pal(b)
-if (x==b):
-	print("palindrome")
+if b.isnumeric():
+	if(x==b):
+		print("Palindrome")
+	else:
+		print("Not a palindrome")
 else:
-	print("not a palindrome")
+	print("INVALID INPUT")
