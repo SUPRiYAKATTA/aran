@@ -6,4 +6,4 @@ a=int(input())
             a -= 1
         print(sum)
     else:
-        print("enter a possitive number")
+        print("enter a natural number")
