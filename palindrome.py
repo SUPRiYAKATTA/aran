@@ -6,7 +6,7 @@ def pal(x):
 x=pal(b)
 if b.isnumeric():
 	if(x==b):
-		print("Palindrome")
+		print("YES a Palindrome")
 	else:
 		print("Not a palindrome")
 else:
