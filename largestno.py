@@ -1,8 +1,7 @@
 a=[]
-    n=int(input())
+    n=10
     for i in range(0,n):
         b=int(input("enter elements:"))
         a.append(b)
     a.sort()
-    print(a)
     print("largest element",a[n-1])
