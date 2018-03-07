@@ -3,7 +3,7 @@ list=[]
 for i in range(x):
         a=input()
         list.append(a)
-    print(list)
-    for i in list:
+print(list)
+for i in list:
         if list.count(i)==1:
-            print(i)
+                print(i)
