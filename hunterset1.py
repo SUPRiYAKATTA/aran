@@ -1,8 +1,8 @@
 def main():
     a=[]
-    n=int(input("enter no of elements:"))
+    n=int(input())
     for i in range(0,n):
-        b=int(input("enter the elements:"))
+        b=int(input())
         a.append(b)
     a.sort(reverse=True)
     def remove(a):
