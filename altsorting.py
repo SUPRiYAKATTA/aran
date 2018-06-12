@@ -7,7 +7,8 @@ def main():
     arr.sort()
     c=arr[::-1]
     newarray = sum(zip(c,arr),())[:len(arr)]
-    print(newarray)
+    print( "".join( repr(e) for e in  newarray) )
+
 
 
 if __name__ == '__main__':
