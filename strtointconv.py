@@ -1,2 +1,2 @@
-x=str(input())
-print(int(x))
+string_x=input()
+print(string_x+".")
