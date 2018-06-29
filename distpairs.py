@@ -8,7 +8,7 @@ def main():
     dtr_2=math.factorial(k)
     dtr=dtr_1*dtr_2
     dpair=ntr/dtr
-    print(dpair)
+    print(int(dpair))
 
 if __name__ == '__main__':
     main()
