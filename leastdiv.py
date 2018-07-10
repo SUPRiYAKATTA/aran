@@ -5,7 +5,7 @@ def main():
     a=int(input())
     b=int(input())
     if (a==0 or b==0):
-        print("0")
+        print("Enter valid input")
     else:
         for i in range(1,10000):
             value=a*i
