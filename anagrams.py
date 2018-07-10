@@ -12,7 +12,8 @@ def main():
         arr.append(b)
     for i in arr:
         x=arr.count(i)
-        new.append(x)
+        if x==1:
+        	new.append(0)
     print(max(new))
 if __name__ == '__main__':
 	main()
