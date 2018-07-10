@@ -4,10 +4,8 @@ def main():
     c_arr=[]
     a=int(input())
     b=int(input())
-    if a==b:
-        print(a)
-    if (a or b)==0:
-        print("otha")
+    if (a==0 or b==0):
+        print("0")
     else:
         for i in range(1,10000):
             value=a*i
