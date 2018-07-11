@@ -5,4 +5,4 @@ def main():
     c.reverse()
     print(" ".join(c))
 if __name__ == '__main__':
-    main()
+	main()
